@@ -55,11 +55,11 @@ public class lectorArchivo {
             while((linea = br.readLine()) != null){
                 palabras.add(linea);
             }
-            
+
         } catch (FileNotFoundException ex) {
             Logger.getLogger(lectorArchivo.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        System.out.println("Leyo: " + palabras);
+        
     }
 }

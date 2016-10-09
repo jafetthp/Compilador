@@ -25,6 +25,19 @@ public class Compiador {
         // La clase tabla tiene una funcion estatica para imprimir una lista
         // la cual debe estar formada por ArrayList<tabla>
         tabla.PrintTabla(table);
+        
+        System.out.println("mierdaaaaaaaaaaaaaaaa");
+        
+        ArrayList<String> codigo = new ArrayList<>();
+        for (int i = 0; i < table.size(); i++) {
+            codigo.add(i, table.get(i).contenido);
+        }
+        //System.out.println(table.get(0).contenido);
+        AnalizadorSintactico aS = new AnalizadorSintactico();
+        
+        aS.analisis(codigo);
+        
+        
     }
     
 }

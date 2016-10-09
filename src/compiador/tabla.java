@@ -19,6 +19,10 @@ public class tabla {
         this.tipo = tipo;            
     }
 
+    tabla() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     @Override
     public String toString(){
         return("| "+contenido+" | "+tipo+" |");
@@ -30,6 +34,10 @@ public class tabla {
         System.out.println("--------- Tabla Generada ----------");
         for(tabla t : ta){
             System.out.println(t);
+        }
+        String palabra;
+        for (int i = 0; i < ta.size(); i++) {
+            palabra = ta.get(i).toString();
         }
     }
         
