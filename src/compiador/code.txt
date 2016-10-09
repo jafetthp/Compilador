@@ -1,0 +1,11 @@
+#include < iostream >
+
+using namespace std ;
+
+int main ( ) {
+char nombre ;
+int 1a;
+cout << "Hola mundo, eres un buen amigo" ;
+x + y;
+"tengo un traje nuevo!"
+}
